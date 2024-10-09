@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css"
+  >
+  <style>
+    .markdown-body h1 {
+      border-bottom: none;
+    }
+
+    pre, .hljs {
+      background-color: #0C0C0E !important;
+    }
+
+    .hljs-comment {
+      color: #CACFE2 !important;
+    }
+
+    .markdown-body blockquote {
+      color: #3a333d;
+      font-size: large;
+    }
+
+    .hljs-copy-wrapper {
+      position: relative;
+    }
+
+    .hljs-copy-button {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      color: whitesmoke;
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background-color: transparent;
+    }
+    
+    .hljs-copy-alert {
+      display: none !important;
+    }
+  </style>
+
+  <title>Intro to JavaScript Functions</title>
+
+</head>
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+  </div>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+    integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"
+  ></script>
+  <script
+    src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"
+  ></script>
+  <script>
+    anchors.add();
+    hljs.highlightAll();
+    hljs.addPlugin(new CopyButtonPlugin());
+  </script>
+</body>
+</html>
