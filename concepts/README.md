@@ -1,4 +1,8 @@
-# ![Intro to JavaScript Functions - Concepts](./assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to useContext</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning Objective:** By the end of this lesson, the learner will be able to understand how and when to use useContext and the pros and cons for doing so.
 

@@ -1,4 +1,8 @@
-# ![Intro to JavaScript Functions - Expressions](the-use-context-hook/assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to useContext</span>
+  <span class="subhead">The useContext() Hook</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create a context, and get and set the state within the context. 
 

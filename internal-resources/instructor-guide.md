@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Functions - Instructor Guide](./assets/hero-instructor-guide.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to useContext - Instructor Guide</span>
+</h1>
 
 ## Overview
 

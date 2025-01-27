@@ -1,5 +1,8 @@
-# ![Lifting State In React - Setup](./assets/hero.png)
-
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to useContext</span>
+  <span class="subhead">Setup</span>
+</h1>
 ## Setup
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
