@@ -119,4 +119,4 @@ There's a marathon of review questions at the end of this microlesson. You don't
 
 We are constantly working to improve our resources for instructors and students.
 
-Have something to contribute to this Instructor Guide? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md).
+Have something to contribute to this Instructor Guide? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html).
